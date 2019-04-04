@@ -9,6 +9,6 @@ Jika teman2 merasa ingin bantu silahkan fork ke git ini lagi yaa
 
 MAKASIH :)
 
-UPDATE 1.1.0
+.::UPDATE 1.1.0::.
 
 -Memperbaiki Kesalahan Pada Password Di Edit User
