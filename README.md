@@ -14,3 +14,7 @@ MAKASIH :)
 -Memperbaiki Kesalahan Pada Password Di Edit User
 
 -Menambahkan detil_buku.php di folder buku
+
+.::UPDATE 1.2.0::.
+
+-Memperbaiki "Undefined ub & su"
