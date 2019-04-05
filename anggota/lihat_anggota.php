@@ -51,12 +51,22 @@ echo "</center><hr>";
 }
 ?>
 <table class="table-data" border=1 width=100% border=0 >
-<tr><td class="td-data" colspan="7"><b>Jumlah Pencarian :
+<tr><td class="td-data" colspan="11"><b>Jumlah Pencarian :
  <?php if ($j_cari==0) {echo "0";} else { echo $j_cari; } ?> eks. |
  Jumlah Keseluruhan Anggota : <?php echo $jumlah_anggota; ?> eks.</b></td></tr>
-<tr><td class="head-data">ID</td><td class="head-data">No Induk</td><td class="head-data">Nama</td><td class="head-data">Jenis Kelamin
-</td><td class="head-data">Kelas</td><td class="head-data">Tempat Lahir</td><td class="head-data">Tanggal Lahir</td><td class="head-data">Alamat</td><td class="head-data">Edit
-</td><td class="head-data">Cetak</td><td class="head-data">Hapus</td></tr>
+<tr>
+	<td class="head-data">ID</td>
+	<td class="head-data">No Induk</td>
+	<td class="head-data">Nama</td>
+	<td class="head-data">Jenis Kelamin</td>
+	<td class="head-data">Kelas</td>
+	<td class="head-data">Tempat Lahir</td>
+	<td class="head-data">Tanggal Lahir</td>
+	<td class="head-data">Alamat</td>
+	<td class="head-data">Edit</td>
+	<td class="head-data">Cetak</td>
+	<td class="head-data">Hapus</td>
+</tr>
 <?php
 while ($hasil=mysqli_fetch_array($query)) {
 echo "<tr><td class='pinggir-data'><a href='?page=detil_anggota&id=$hasil[id]'>$hasil[id]</a></td>

@@ -2,7 +2,7 @@
 include "../include/koneksi_db.php"; //memanggil file koneksi_db.php
 include "../include/fungsi2.php"; //memanggil file fungsi.php
 
-$id	= isset($_POST['id']) ? addslashes($_POST['id']) : "";
+$id					= isset($_POST['id']) ? addslashes($_POST['id']) : "";
 $no_induk			= isset($_POST['no_induk']) ? addslashes($_POST['no_induk']) : "";
 $nama   			= isset($_POST['nama']) ? addslashes($_POST['nama']) : "";
 $jenis_kelamin     	= isset($_POST['jenis_kelamin']) ? addslashes($_POST['jenis_kelamin']) : "";
@@ -21,7 +21,7 @@ if ($no_induk==""||$nama==""||$jenis_kelamin==""||$kelas==""||$tempat_lahir==""|
 		echo "<meta http-equiv='refresh' content='0>;
 		url=?page=detil_anggota&id=$id'>";
 	} else {
-		$query = mysqli_query($konek,"INSERT INTO data_anggota VALUES (NULL, '$no_induk', '$nama', '$jenis_kelamin', '$kelas', '$tempat_lahir', '$tanggal_lahir', '$alamat', NOW())");
+		$query = mysqli_query($konek, "INSERT INTO data_anggota VALUES (NULL, '$no_induk', '$nama', '$jenis_kelamin', '$kelas', '$tempat_lahir', '$tanggal_lahir', '$alamat', NOW())");
 		
 		if ($query) {
 			echo "<script>alert('Data berhasil ditambahkan @ $hari_ini. Terima Kasih')</script>";

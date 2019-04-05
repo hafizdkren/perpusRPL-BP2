@@ -25,7 +25,7 @@
 		   </td>
 		</tr>
 		<tr>
-		    <td width="35%" valign="top">Keperuan (*)</td>
+		    <td width="35%" valign="top">Keperluan (*)</td>
 			<td>
 			<input type="checkbox" name="perlu1" value="Pinjam Buku"> Pinjam Buku<br>
 			<input type="checkbox" name="perlu2" value="Baca Buku"> Baca Buku<br>

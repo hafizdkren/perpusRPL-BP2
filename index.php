@@ -3,7 +3,7 @@
 <title>.:: Sistem Informasi Perpustakaan SMK BINA PENDIDIKAN 2 ::.</title>
 <style type="text/css">
 body {
-background-color: blue;
+background-color: #030303;
 color:  black;
 margin-top: 0px;
 margin-left: 50px;
@@ -16,10 +16,10 @@ font-size: 14px;
 
 <body>
 <center>
-<table border=0 width="900px" bgcolor="white" colspan="0">
+<table border=0 width="900px" bgcolor=#ff4500 colspan="0">
 	<tr>
 	<form action="login.php" name="login" method="post">
-		<td style="background: green; padding: 8px 0 8px 0" colspan="2" align="right">
+		<td style="background: #539ac4; padding: 8px 0 8px 0" colspan="2" align="right">
 		Username : <input type="text" name="user" placeholder="" required> Password : <input type="password" name="pass" placeholder="" required> <input type="submit" value="Log in">
 		</td>
 	</form>
@@ -78,7 +78,7 @@ font-size: 14px;
 	include "include/deteksi.php";
 	?>
 	</td>
-	<td width="60%" style="background: teal">
+	<td width="60%" style="background: #9a1817">
 	<?php
 	include "pengunjung/pengunjung.php";
 	include "include/fungsi2.php";

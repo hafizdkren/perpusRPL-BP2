@@ -12,7 +12,7 @@
 </tr>
 <tr>
 	<td class="pinggir-data">Jenis Kelamin</td>
-	<td class="pinggir-data"><input type="text" name="jk" size="15"></td>
+	<td class="pinggir-data"><input type="text" name="jenis_kelamin" size="15"></td>
 </tr>
 <tr>
 	<td width="25%">Kelas (*)</td>
