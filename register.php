@@ -36,25 +36,32 @@ if(isset($_POST['register'])){
 
 ?>
 <html>
-<head>
-<body>
-<title>Register Form</title>
-<form id='register' action='index.php' method='post'> <script>javascript: alert('Register Complete')</script>";
-<fieldset >
-<legend><font color="#00BFFF">Register</legend>
-<label for='username' ><font color="#00BFFF">ID :</label>
-<input type='text' name='ID' id='username' maxlength="50" />
-<label for='username' ><font color="#00BFFF">Username :</label>
-<input type='text' name='user' id='username' maxlength="50" />
-<label for='password' ><font color="#00BFFF">Password :</label>
-<input type='password' name='pass' id='password' maxlength="50" />
-<label for='username' ><font color="#00BFFF">Hak Akses :</label>
-<input type='text' name='HakAkses' id='username' maxlength="50" />
-<input type='submit' name='Submit' value='Register' />
-<link rel="stylesheet" href="cssbackgroundregister.css" type="text/css">
-</fieldset>
-</form>
+	<head>
+	</head>
+	
+	<body>
+		<title>Register Form</title>
+		<form id='register' action='index.php' method='post'> <script>javascript: alert('Register Complete')</script>";
+	
+		<fieldset >
+		<legend><font color="#00BFFF">Register</legend>
+		
+		<label for='username' ><font color="#00BFFF">ID :</label>
+		<input type='text' name='ID' id='username' maxlength="50" />
+		
+		<label for='username' ><font color="#00BFFF">Username :</label>
+		<input type='text' name='user' id='username' maxlength="50" />
+		
+		<label for='password' ><font color="#00BFFF">Password :</label>
+		<input type='password' name='pass' id='password' maxlength="50" />
+		
+		<label for='username' ><font color="#00BFFF">Hak Akses :</label>
+		<input type='text' name='HakAkses' id='username' maxlength="50" />
+		
+		<input type='submit' name='Submit' value='Register' />
+		<link rel="stylesheet" href="cssbackgroundregister.css" type="text/css">
+		</fieldset>
+		
+		</form>
+	</body>
 </html>
-</head>
-</body>
-
